@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="661.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="252.0" layoutY="141.0" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="183.0" text="Start Process" />
+        <Label fx:id="label" alignment="CENTER" layoutX="66.0" layoutY="35.0" minHeight="16" minWidth="69" prefHeight="21.0" prefWidth="555.0" text="Click To Start Process" textAlignment="CENTER" />
+      <ProgressBar fx:id="progrus" layoutX="45.0" layoutY="89.0" prefHeight="23.0" prefWidth="598.0" />
+    </children>
+</AnchorPane>
