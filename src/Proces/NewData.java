@@ -85,11 +85,13 @@ public class NewData {
 
                     if (arrears > 0) {
                         h.setAssQstartLqArreas(arrears);
-                        h.setAssQstartLycArreas(arrears);
+                        h.setAssQstartLqcArreas(arrears);
 
                         h.setAssQstartLqWarrant(warrant);
                         h.setAssQstartLqcWarrant(warrant);
 
+                        h.setAssQstartTyoldArrias(arrears);
+                        h.setAssQstartTyoldWarant(warrant);
                     } else {
 
                         double q2_pay = data.getDouble("Q2_PAY");
